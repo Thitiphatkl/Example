@@ -8,7 +8,9 @@
 #
 # We recover the rectangle from the green border in the provided "optimized rectangle" image.
 
-import numpy as np, cv2, matplotlib.pyplot as plt
+import numpy as np
+import cv2
+import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle, FancyArrowPatch
 from matplotlib import gridspec
 
